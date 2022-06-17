@@ -149,7 +149,7 @@ while True:
 			cv2.putText(frame, "DROWSINESS ALERT!", (270, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 			# Add the frame to the dataset ar a proof of drowsy driving
 			cv2.imwrite("dataset/frame_yawn%d.jpg" % count_yawn, frame)
-			playsound('sound files/alarm.mp3')
+			#playsound('sound files/alarm.mp3')
 			playsound('sound files/warning_yawn.mp3')
 	#total data collection for plotting
 	for i in ear_list:
